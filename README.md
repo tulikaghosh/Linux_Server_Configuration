@@ -138,7 +138,7 @@ oauth_flow = flow_from_clientsecrets(
 
 CLIENT_ID = json.loads(
       open('/var/www/FlaskApp/FlaskApp/client_secrets.json', 'r').read())['web'    ]['client_id']
-      ```
+```      
 ## Setup for deploying a Flask App on Ubuntu VPS     
 1. Install pip: `$ sudo apt-get install python-pip`
 2. Install packages:
