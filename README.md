@@ -200,7 +200,7 @@ application.secret_key = 'super_secret_key'
 1. Run `$ sudo python database_setup.py`
 2. Run `$ sudo python lotsofitems.py`
 3. Restart Apache: `$ sudo service apache2 reload`
-4. Now follow the link to 9http://34.232.50.176/) the application should be runing online
+4. Now follow the link to (http://34.232.50.176/) the application should be runing online
 ## Sources
 Amazon Lightsail Website
 Google API Concole
