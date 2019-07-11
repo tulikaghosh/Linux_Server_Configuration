@@ -41,7 +41,7 @@ Click **Create** button
 9. Update the firewall configuration on Amazon Lightsail website under Networking. Delete default SSH port 22 and add port 80, 123, 2200
 10. Open up a new terminal and you can now ssh in via the new port 2200: $ ssh -i ~/.ssh/lightsail_key.rsa ubuntu@34.232.50.176 -p 2200
 ## Create a new user account grader and give grader sudo access
-1. Create a new user account grader:`$ sudo adduser grader`
+1. Create a new user account grader:`$ sudo adduser grader`.**Password** grader.
 2.`$ sudo nano /etc/sudoers`
 3. Create a file named grader under this path: `$ sudo touch /etc/sudoers.d/grader`
 4. Edit this file: `$ sudo nano /etc/sudoers.d/grader`, add code `grader ALL=(ALL:ALL) ALL`. Save and exit
